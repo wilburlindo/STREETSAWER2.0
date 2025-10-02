@@ -1,15 +1,15 @@
-fetch('/api/products')
+fetch('/api/catalog')
   .then(res => res.json())
   .then(data => {
-    const container = document.getElementById('products');
+    const catalog = document.getElementById('catalog');
     data.forEach(product => {
-      const card = document.createElement('div');
-      card.className = 'product-card';
-      card.innerHTML = `
+      const div = document.createElement('div');
+      div.className = 'card';
+      div.innerHTML = `
         <img src="${product.image}" alt="${product.name}">
         <h3>${product.name}</h3>
         <p>R$ ${product.price.toFixed(2)}</p>
       `;
-      container.appendChild(card);
+      catalog.appendChild(div);
     });
   });

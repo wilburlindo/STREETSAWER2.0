@@ -1,7 +1,7 @@
 {
-  "name": "skate-shop-charliebrownjr",
+  "name": "vida-loka-wear",
   "version": "1.0.0",
-  "description": "Loja online de roupas de skatistas com estilo Charlie Brown Jr.",
+  "description": "Loja virtual de roupas para skatistas estilo CBJR",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"

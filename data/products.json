@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Camiseta Skate Rock",
+    "price": 89.90,
+    "image": "/images/camiseta1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Moletom Underground",
+    "price": 149.90,
+    "image": "/images/moletom1.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Boné Vida Loka",
+    "price": 59.90,
+    "image": "/images/bone1.jpg"
+  }
+]

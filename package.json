@@ -1,0 +1,14 @@
+{
+  "name": "skate-shop-charliebrownjr",
+  "version": "1.0.0",
+  "description": "Loja online de roupas de skatistas com estilo Charlie Brown Jr.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "SeuNome",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

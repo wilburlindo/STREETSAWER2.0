@@ -1,4 +1,4 @@
-# 🧢 Vida Loka Wear
+# 🧢 streetsawer
 
 Loja virtual de roupas para skatistas com estilo urbano inspirado no som e na atitude de Charlie Brown Jr.!
 
@@ -14,4 +14,5 @@ Loja virtual de roupas para skatistas com estilo urbano inspirado no som e na at
 git clone https://github.com/seunome/vida-loka-wear.git
 cd vida-loka-wear
 npm install
+
 npm start

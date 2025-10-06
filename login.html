@@ -1,34 +1,114 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <title>Login - SkateWear</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Login - Loja de Roupas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(to right, #f8f9fa, #dee2e6);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login-container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .login-container h2 {
+            text-align: center;
+            margin-bottom: 24px;
+            color: #333;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 6px;
+            color: #555;
+        }
+
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px 14px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #212529;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #343a40;
+        }
+
+        .register-link {
+            text-align: center;
+            margin-top: 16px;
+        }
+
+        .register-link a {
+            color: #212529;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .register-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
-<body class="login">
-  <div class="chatbox">
-    <div class="bubble bot">Olá! Bem-vindo à SkateWear 👋</div>
-    <div class="bubble bot">Qual seu nome de usuário?</div>
-    <input type="text" placeholder="Digite seu usuário..." id="userInput" autofocus>
-    <button class="btn" onclick="responder()">Enviar</button>
-    <div class="bubble user hidden" id="respostaUser"></div>
-    <div class="bubble bot hidden" id="respostaBot">Legal! Agora digite sua senha.</div>
-  </div>
+<body>
 
-  <script>
-    function responder() {
-      const input = document.getElementById('userInput');
-      const respostaUser = document.getElementById('respostaUser');
-      const respostaBot = document.getElementById('respostaBot');
+    <div class="login-container">
+        <h2>Entrar na Loja</h2>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+            </div>
 
-      if (input.value.trim() !== '') {
-        respostaUser.textContent = input.value;
-        respostaUser.classList.remove('hidden');
-        respostaBot.classList.remove('hidden');
-        input.value = '';
-        input.placeholder = '••••••••';
-      }
-    }
-  </script>
+            <div class="form-group">
+                <label for="password">Senha</label>
+                <input type="password" id="password" name="password" placeholder="Sua senha" required>
+            </div>
+
+            <button type="submit">Entrar</button>
+        </form>
+
+        <div class="register-link">
+            <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+        </div>
+    </div>
+
 </body>
 </html>
+

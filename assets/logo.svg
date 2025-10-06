@@ -1,16 +1,11 @@
-<!-- Logo simples: skate + tipografia -->
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="110" viewBox="0 0 400 110" role="img" aria-label="SkateWear logo">
-  <title>SkateWear</title>
-  <g fill="none" fill-rule="evenodd">
-    <!-- Skate deck -->
-    <rect x="10" y="50" width="380" height="18" rx="9" fill="#111827"/>
-    <ellipse cx="80" cy="72" rx="12" ry="8" fill="#0ea5a4"/>
-    <ellipse cx="320" cy="72" rx="12" ry="8" fill="#0ea5a4"/>
-    <!-- Trucks -->
-    <rect x="68" y="60" width="24" height="6" rx="2" fill="#94a3b8"/>
-    <rect x="296" y="60" width="24" height="6" rx="2" fill="#94a3b8"/>
-    <!-- Text -->
-    <text x="20" y="32" font-family="Verdana,Arial,sans-serif" font-size="28" fill="#111827" font-weight="700">SkateWear</text>
-    <text x="20" y="52" font-family="Verdana,Arial,sans-serif" font-size="10" fill="#6b7280">street. skate. style.</text>
-  </g>
+<svg width="250" height="80" viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <rect width="100%" height="100%" fill="black"/>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
+        font-family="Impact, sans-serif" font-size="48" fill="white" letter-spacing="2">
+    SawerStreet
+  </text>
+  <circle cx="40" cy="130" r="10" fill="white"/>
+  <circle cx="460" cy="130" r="10" fill="white"/>
+  <rect x="40" y="125" width="420" height="10" rx="5" fill="white"/>
 </svg>
+

@@ -1,18 +1,11 @@
-# 🧢 streetsawer
+# SkateWear — site demo
 
-Loja virtual de roupas para skatistas com estilo urbano inspirado no som e na atitude de Charlie Brown Jr.!
+Site simples para marca de roupa skatista. Projetado para publicação via GitHub Pages.
 
-## 🎯 Stack
+## Como publicar (rápido)
 
-- Node.js + Express
-- HTML/CSS/JS puro
-- Catálogo simulado com JSON
-
-## 🚀 Instalação
-
-```bash
-git clone https://github.com/seunome/vida-loka-wear.git
-cd vida-loka-wear
-npm install
-
-npm start
+1. Crie o diretório local:
+   ```bash
+   mkdir skatewear-site
+   cd skatewear-site
+   # cole os arquivos conforme o repositório

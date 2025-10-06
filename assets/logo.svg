@@ -1,0 +1,16 @@
+<!-- Logo simples: skate + tipografia -->
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="110" viewBox="0 0 400 110" role="img" aria-label="SkateWear logo">
+  <title>SkateWear</title>
+  <g fill="none" fill-rule="evenodd">
+    <!-- Skate deck -->
+    <rect x="10" y="50" width="380" height="18" rx="9" fill="#111827"/>
+    <ellipse cx="80" cy="72" rx="12" ry="8" fill="#0ea5a4"/>
+    <ellipse cx="320" cy="72" rx="12" ry="8" fill="#0ea5a4"/>
+    <!-- Trucks -->
+    <rect x="68" y="60" width="24" height="6" rx="2" fill="#94a3b8"/>
+    <rect x="296" y="60" width="24" height="6" rx="2" fill="#94a3b8"/>
+    <!-- Text -->
+    <text x="20" y="32" font-family="Verdana,Arial,sans-serif" font-size="28" fill="#111827" font-weight="700">SkateWear</text>
+    <text x="20" y="52" font-family="Verdana,Arial,sans-serif" font-size="10" fill="#6b7280">street. skate. style.</text>
+  </g>
+</svg>

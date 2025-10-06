@@ -109,3 +109,37 @@ body.login {
   max-width: 100%;
   word-wrap: break-word;
   wid
+
+   :root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 2rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* Tema escuro */
+body.dark {
+  --bg-color: #121212;
+  --text-color: #ffffff;
+}
+
+

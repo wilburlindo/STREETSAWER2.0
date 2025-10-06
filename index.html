@@ -1,99 +1,33 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>SkateWear — Roupas para Skatistas</title>
-  <meta name="description" content="SkateWear — roupas urbanas e robustas para quem vive o skate." />
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <title>SkateWear</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="#">
-        <img src="assets/logo.svg" alt="SkateWear logo" class="logo" />
-      </a>
-      <nav class="nav">
-        <a href="#colecao">Coleção</a>
-        <a href="#sobre">Sobre</a>
-        <a href="#contato">Contato</a>
-        <button id="cartBtn" class="cart-btn" aria-label="Ver carrinho">Carrinho <span id="cartCount">0</span></button>
-      </nav>
-      <button class="menu-toggle" aria-label="Abrir menu">☰</button>
-    </div>
+  <header>
+    <img src="assets/logo.svg" alt="SkateWear Logo" class="logo">
+    <h1>SkateWear</h1>
+    <p>Estilo de rua para quem vive o skate.</p>
   </header>
 
   <main>
-    <section class="hero">
-      <div class="container hero-inner">
-        <div>
-          <h1>Roupa pra quem racha o asfalto</h1>
-          <p>Peças resistentes, conforto para manobrar e estilo de rua. Nova coleção já disponível.</p>
-          <a href="#colecao" class="btn-primary">Ver coleção</a>
-        </div>
-        <img class="hero-image" src="assets/logo.svg" alt="Ilustração skate" />
+    <section class="produtos">
+      <h2>Produtos</h2>
+      <div class="item">
+        <img src="https://picsum.photos/300/200?1" alt="Camiseta">
+        <p>Camiseta Skate — R$89</p>
       </div>
-    </section>
-
-    <section id="colecao" class="container colecao">
-      <h2>Coleção Destaque</h2>
-      <div class="grid produtos">
-        <article class="card">
-          <img src="https://picsum.photos/seed/1/600/400" alt="Camiseta SkateWear - Preto" />
-          <h3>Camiseta "Ollie" — Preta</h3>
-          <p class="price">R$ 89,90</p>
-          <button class="add-btn" data-name="Camiseta Ollie" data-price="89.9">Adicionar ao carrinho</button>
-        </article>
-
-        <article class="card">
-          <img src="https://picsum.photos/seed/2/600/400" alt="Moletom SkateWear - Cinza" />
-          <h3>Moletom "Kickflip" — Cinza</h3>
-          <p class="price">R$ 159,90</p>
-          <button class="add-btn" data-name="Moletom Kickflip" data-price="159.9">Adicionar ao carrinho</button>
-        </article>
-
-        <article class="card">
-          <img src="https://picsum.photos/seed/3/600/400" alt="Boné SkateWear" />
-          <h3>Boné "Grind" — Verde</h3>
-          <p class="price">R$ 59,90</p>
-          <button class="add-btn" data-name="Boné Grind" data-price="59.9">Adicionar ao carrinho</button>
-        </article>
+      <div class="item">
+        <img src="https://picsum.photos/300/200?2" alt="Moletom">
+        <p>Moletom Skate — R$149</p>
       </div>
-    </section>
-
-    <section id="sobre" class="container sobre">
-      <h2>Sobre a SkateWear</h2>
-      <p>Marca independente feita por skatistas para skatistas. Produtos testados no asfalto e projetados para durar.</p>
-    </section>
-
-    <section id="contato" class="container contato">
-      <h2>Fale conosco</h2>
-      <form id="contactForm">
-        <label>
-          Nome
-          <input type="text" name="name" required />
-        </label>
-        <label>
-          Email
-          <input type="email" name="email" required />
-        </label>
-        <label>
-          Mensagem
-          <textarea name="message" rows="4" required></textarea>
-        </label>
-        <button class="btn-primary" type="submit">Enviar</button>
-      </form>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container">
-      <p>© <span id="year"></span> SkateWear — Todos os direitos reservados.</p>
-    </div>
+  <footer>
+    <p>© 2025 SkateWear</p>
   </footer>
-
-  <div id="toast" class="toast" role="status" aria-live="polite"></div>
-
-  <script src="script.js"></script>
 </body>
 </html>
